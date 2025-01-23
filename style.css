@@ -1,3 +1,16 @@
+.grid {
+    display: grid;                    /* Thiết lập grid layout cho phần tử chứa */
+    grid-template-columns: 30% 30%;    /* Tạo hai cột, mỗi cột chiếm 40% chiều rộng */
+    gap: 20px;                         /* Khoảng cách giữa các cột */
+    justify-content: center;           /* Căn giữa các cột theo chiều ngang */
+}
+
+.item {
+    background-color: lightsalmon;      /* Màu nền cho mỗi phần tử */
+    padding: 20px;                    /* Khoảng cách bên trong mỗi phần tử */
+    text-align: center;               /* Căn giữa nội dung trong mỗi phần tử */
+    font-size: 30px;
+}
 .tieude{
     background-color: gray; color:black;
 }
@@ -31,7 +44,7 @@ body{
 p{
     font-style: italic;
 }
-.skip-style{
+.link-style{
     text-align: center;
     color:red;
     font-size: 45px;
@@ -42,4 +55,11 @@ li {
     list-style-type: none;  /* liststyle */       /* set padding */
     color: #333;            /* set text color */
     font-style: bold;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+nav img {
+    width: 30%;
 }
