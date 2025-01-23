@@ -1,0 +1,45 @@
+.tieude{
+    background-color: gray; color:black;
+}
+html{
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#example{
+    width: 500px;
+    height :150px;
+    color: green; 
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+#exampleTitle{
+font-size: 20px;
+margin-left: 130px;
+margin-right: 130px;
+}
+#exampleText{
+    font-size: 15px;
+    font-style:italic;
+    }
+body{
+    font-family: sans-serif;
+}
+p{
+    font-style: italic;
+}
+.skip-style{
+    text-align: center;
+    color:red;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+li {
+    list-style-type: none;  /* liststyle */       /* set padding */
+    color: #333;            /* set text color */
+    font-style: bold;
+}
