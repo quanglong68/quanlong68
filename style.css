@@ -63,3 +63,67 @@ nav{
 nav img {
     width: 30%;
 }
+#animalsBeauty{
+    text-align: center;
+    font-size: 15px;
+}
+.skip-link {
+    position: absolute; /* Đặt liên kết ra ngoài khung nhìn */
+    top: -100px;
+    left: 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: top 0.3s ease; /* Hiệu ứng khi xuất hiện */
+}
+
+/* Hiển thị khi được focus */
+.skip-link:focus {
+    position: absolute;
+    top: 10px; /* Đưa liên kết vào khung nhìn */
+    left: 10px;
+    z-index: 100; /* Đảm bảo nó nằm trên các phần tử khác */
+    outline: none;
+}
+.navbar {
+    background-color: #333; /* Màu nền cho thanh điều hướng */
+    overflow: hidden; /* Đảm bảo các phần tử không bị tràn ra ngoài */
+}
+
+/* Định dạng các mục trong thanh điều hướng */
+.navbar ul {
+    list-style-type: none; /* Loại bỏ dấu chấm cho các mục */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Căn giữa các mục */
+}
+
+.navbar li {
+    display: inline-block; /* Các mục hiển thị theo hàng ngang */
+}
+
+/* Định dạng các liên kết trong thanh điều hướng */
+.navbar a {
+    color: white; /* Màu chữ trắng */
+    text-decoration: none; /* Loại bỏ gạch dưới */
+    padding: 14px 20px; /* Khoảng cách xung quanh liên kết */
+    display: inline-block; /* Đảm bảo liên kết có thể nhận được padding */
+}
+
+/* Hiệu ứng hover cho các liên kết */
+.navbar a:hover {
+    background-color: #ddd; /* Màu nền thay đổi khi hover */
+    color: black; /* Màu chữ thay đổi khi hover */
+}
+img{
+    border: 5px solid red;       /* Thêm viền xanh lá cho hình ảnh */
+    padding: 10px;                    /* Thêm khoảng cách giữa viền và hình ảnh */
+    border-radius: 15px;              /* Bo tròn các góc hình ảnh */
+    width: 300px;                      /* Đảm bảo hình ảnh không vượt quá chiều rộng của phần tử chứa */
+    box-sizing: border-box;          /* Đảm bảo padding và border không ảnh hưởng đến kích thước tổng thể của phần tử */
+}
+.imgElt img:nth-child(odd) {
+    border: 5px solid #333;
+}
